@@ -32,7 +32,8 @@ jobs:
     - name: Preparing Files
       run: |
         # Downloading and extracting necessary files
-        wget https://sourceforge.net/projects/samsung-galaxy-a01-m01/files/erofs_ext4.zip
+        wget https://sourceforge.net/projects/multi-function-patch/files/RO2RW/RO2RW-TEST-3.7.3.0s.zip/download
+        # https://sourceforge.net/projects/samsung-galaxy-a01-m01/files/erofs_ext4.zip
         unzip erofs_ext4.zip
         rm -r erofs_ext4.zip
 
