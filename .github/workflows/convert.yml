@@ -48,7 +48,7 @@ jobs:
     - name: Converting
       run: |
         # Building the ROM
-        ./down
+        ./install.sh
 
     - name: Rename file
       run: mv ./last/EXT4_RW_AP.zip ./last/${{ github.event.inputs.Firmware }}.zip
